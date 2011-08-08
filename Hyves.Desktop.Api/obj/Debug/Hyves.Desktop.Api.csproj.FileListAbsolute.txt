@@ -1,0 +1,11 @@
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Debug\Hyves.Desktop.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\Hyves.Desktop.Api.LoginForm.resources
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\Hyves.Desktop.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Debug\Hyves.Desktop.Api.exe
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Debug\Hyves.Desktop.Api.exe
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Debug\Newtonsoft.Json.xml

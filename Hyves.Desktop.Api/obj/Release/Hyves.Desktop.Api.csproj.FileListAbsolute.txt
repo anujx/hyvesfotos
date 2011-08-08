@@ -1,0 +1,13 @@
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\ResolveAssemblyReference.cache
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Hyves.Desktop.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Hyves.Desktop.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\Hyves.Desktop.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\Hyves.Desktop.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\Hyves.Desktop.Api.LoginForm.resources
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\GenerateResource.read.1.tlog
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\obj\Release\GenerateResource.write.1.tlog
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Hyves.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Newtonsoft.Json.WindowsPhone.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Hyves.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Newtonsoft.Json.WindowsPhone.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Desktop.Api\bin\Release\Newtonsoft.Json.WindowsPhone.xml

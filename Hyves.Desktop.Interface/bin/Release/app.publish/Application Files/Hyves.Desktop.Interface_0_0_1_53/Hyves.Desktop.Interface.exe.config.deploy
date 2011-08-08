@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v2.0.50727"/>
+  </startup>
+  <appSettings>
+    <add key="ConsumerKey" value="MzU0NF-cO-Y-zoybHN0a9ecaar6j"/>
+    <add key="ConsumerSecret" value="MzU0NF-77GRlUryOErwZKc8oHlFi"/>
+    <add key="HyvesHttpUri" value="http://data.hyves-api.nl/"/>
+    <add key="HyvesHttpUriSecure" value="https://data.hyves-api.nl/"/>
+    <add key="ApiVersion" value="2.0"/>
+
+<!-- Dev
+    <add key="ConsumerKey" value="MTk1Xyr8RrrdkpbYEJHyL8ly-i4="/>
+    <add key="ConsumerSecret" value="MTk1Xz100t-PRgnPYwZsYPpwJIA="/>
+    <add key="HyvesHttpUri" value="http://data.hyves-api.anujdev.vmware"/>
+    <add key="HyvesHttpUriSecure" value="https://data.hyves-api.anujdev.vmware"/>
+    <add key="ApiVersion" value="2.0"/>
+-->
+  </appSettings>
+</configuration>

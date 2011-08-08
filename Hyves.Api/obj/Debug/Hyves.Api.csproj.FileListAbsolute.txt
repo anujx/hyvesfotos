@@ -1,0 +1,7 @@
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Debug\Hyves.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Debug\Hyves.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Debug\Hyves.Desktop.SharedItems.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Debug\Hyves.Desktop.SharedItems.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Debug\Hyves.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Debug\Hyves.Api.pdb

@@ -1,0 +1,10 @@
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Release\ResolveAssemblyReference.cache
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Hyves.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Hyves.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Release\Hyves.Api.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\obj\Release\Hyves.Api.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Newtonsoft.Json.WindowsPhone.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Newtonsoft.Json.WindowsPhone.pdb
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Newtonsoft.Json.WindowsPhone.xml
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Hyves.Desktop.SharedItems.dll
+C:\Users\anuj\documents\visual studio 2010\Projects\Delhi\Hyves.Api\bin\Release\Hyves.Desktop.SharedItems.pdb

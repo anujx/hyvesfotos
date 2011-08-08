@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Hyves.Desktop.Interface.exe" version="0.0.1.53" publicKeyToken="8aa2d5198a1ca355" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Hyves.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hyves.Desktop.Interface" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Hyves.Desktop.Interface.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emgu.CV.dll" size="264704">
+      <assemblyIdentity name="Emgu.CV" version="2.2.1.1150" publicKeyToken="7281126722AB4438" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>/GLfHtVNuvT5Yo1BRwDRnDSDrQE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Emgu.Util.dll" size="23040">
+      <assemblyIdentity name="Emgu.Util" version="2.2.1.1150" publicKeyToken="7281126722AB4438" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YRMNvLQKVDJ0Qj7yAZNN0l3Y7PU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hyves.Desktop.Api.dll" size="95232">
+      <assemblyIdentity name="Hyves.Desktop.Api" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JPOBZXmE97yKnhVuPj+PM3armb4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hyves.Desktop.Interface.exe" size="329728">
+      <assemblyIdentity name="Hyves.Desktop.Interface" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>6o3ZsVLwg3yMCIln0fiLEAwOrjs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nl-NL\Hyves.Desktop.Interface.resources.dll" size="4608">
+      <assemblyIdentity name="Hyves.Desktop.Interface.resources" version="1.0.0.0" language="nl-NL" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>z5lmWyhyNZ0ng1PweMGkxbZKJHQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hyves.Desktop.SharedItems.dll" size="4096">
+      <assemblyIdentity name="Hyves.Desktop.SharedItems" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>sALr4x4KhFPXLFfjF7cMbbZxlMM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.Net35.dll" size="320512">
+      <assemblyIdentity name="Newtonsoft.Json.Net35" version="4.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>61R4zax3QXwqrM8jSNeihrO+zjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cvextern.dll" size="603136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5cpmJAZal3T8D+rUyXzEkDjku8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="haarcascade_frontalface_alt2.xml" size="837462">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ok6raO0LxkTqgcTRe4FD/s9JUMY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Hyves.Desktop.Interface.exe.config" size="835">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rw7mP4IXIa2e+rm70qSj/LtFySQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Hyves.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3mER17ITk4L9BBT/YbP9ogjuJSc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_calib3d220.dll" size="419840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>8uZLbfeoODId5WhFoiz+EbkBUgQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_contrib220.dll" size="452608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kNZK8Oy38EA8QJUHsDC70QY1hvc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_core220.dll" size="2133504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9TySHcqLiunRXaM4CMCE3k9volg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_features2d220.dll" size="815104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Ch9htxtMGEP22AKEDUiOB1q9yo4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_ffmpeg220.dll" size="5536768">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aVNIFCyGWA4AX0nLXPEKMpnvBE4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_flann220.dll" size="30208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rZQ5WmYEYHWA0L9u1QJbaxmpCy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_gpu220.dll" size="151552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hV+jYKVgkwG2gJd8xF8k5kBHmu4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_highgui220.dll" size="886784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n11TL/7WMm3lzSmOMhpG6PXzpQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_imgproc220.dll" size="1438720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OfQ8VDeENeA2akFEXTjjofORBRM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_legacy220.dll" size="676864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>lYMIKp7rDRJAvCcJNLqt9Pa/CXg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_ml220.dll" size="390144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>3gs4tBtGbXVRXkDKX8Dg5OXr+jo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_objdetect220.dll" size="326656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qjM3YOHss2I6gDAnRFz0ow4Ebn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="opencv_video220.dll" size="238592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>dvPMlFhssz57+FLskXbgy44QwqY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Hyves B.V., O=Hyves B.V., L=Amsterdam, C=NL" issuerKeyHash="7b68ce29aac017be497ae1e53fd6a7f7458f3532" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>DBMRMkBeZSYlGMvaP1PEKWBAips=</DigestValue></Reference></SignedInfo><SignatureValue>YL9k+3IdyK3PRqL3fHVEyyFAH3Uw7bZr5D6Dykb5WUoGjnV0wmOSfdAM7zmB6z8KxlVxKENq5fjZMyU9KkBY6wu/Qc9BvBKHzEOJUDr6yZw66tHxMo9JkzGbgKgWSSpSGpkOI7C1RYC8WmhxKh8RvZFew5N4TGiD6oUZAQ1PSOibqC0k3kna+G2Ek3j3Ou4Mj/NlBPCowJLZd18qga2oAufLTW6VQ4xIqi02ZC4yqYD89YVW1hhCYT8dFE6VRfXWWpRoTeb1nRgWWg0dBtq70gvjbtTFYF0BlmnqrtgsRXiOS00YzyIB5NdWoyZbz3R6WACTauIMjFbOjahEnynoYw==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pwLq15+kdlCF7BYeoAiOMrqUFvZQ6mrefrhh9ytv+DzLxs7+LgWoyUdZV0izn7ZIWdxLzPoFWOtel4gKdqjzAEPnwQPf/YE9MW19ChkW0mU/nrpNfnoFEXyaLk2EaoUm26OyIzHuof2VqfyfsSJwSbWt/nC48RjwIvyM/fWwLSAWNu3GuQzTPiO6ix922ruBjEjjcllbM3HfGjWkhwSV14wLZMHVjFOfU2aAfikQUobGA5uIIWdswzOMG5CW1pAF9RmG0J/XjIQHhuFVeWtAVAL+VMJ0Dgjd+zEyuqoMRRrkVx0yqW9Xp7x0m3ytq7pmpig/5W5vcOaiDrzIz80B7Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9b8a406029c4533fdacb182526655e403211130c" Description="" Url=""><as:assemblyIdentity name="Hyves.Desktop.Interface.exe" version="0.0.1.53" publicKeyToken="8aa2d5198a1ca355" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Hyves B.V., O=Hyves B.V., L=Amsterdam, C=NL</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Wi66YqLpfUH0WFaRV+ipQVfhK0g=</DigestValue></Reference></SignedInfo><SignatureValue>GTKji6UvwGRTogwJHQ6XRc7+qxJBVEjz88g8+6fzvVyCFWFhHgX8NsB7jk5JOgAGu9oEMF4gK25deBJ1eWTy3SL3TGSBlszOHC9F/Ck1DQNY//naWyHnnoly+dCDyBtccF67aMc4U1acG+YMRWWDMPlr/xuGHQ3364LjVVioc4K5k0msKQOnGG0PmGcYnSNVzKQK3EDETHZglxn9ifFZr7Fp4JIYatI6eYdml8MP3F/phiO27AJZSiq61eKAsCR4IIUOXmyxcIas2+o40Zt2275rh25qjddhrYqSYC+y/aRwOdYE9Q5/1yWxV/9EyXtmYBSaWCXx3Sw7cQliX0eTQA==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pwLq15+kdlCF7BYeoAiOMrqUFvZQ6mrefrhh9ytv+DzLxs7+LgWoyUdZV0izn7ZIWdxLzPoFWOtel4gKdqjzAEPnwQPf/YE9MW19ChkW0mU/nrpNfnoFEXyaLk2EaoUm26OyIzHuof2VqfyfsSJwSbWt/nC48RjwIvyM/fWwLSAWNu3GuQzTPiO6ix922ruBjEjjcllbM3HfGjWkhwSV14wLZMHVjFOfU2aAfikQUobGA5uIIWdswzOMG5CW1pAF9RmG0J/XjIQHhuFVeWtAVAL+VMJ0Dgjd+zEyuqoMRRrkVx0yqW9Xp7x0m3ytq7pmpig/5W5vcOaiDrzIz80B7Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIGCjCCBPKgAwIBAgIQD0rKEcwVzyWiikyH2xpq7TANBgkqhkiG9w0BAQUFADBvMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMS4wLAYDVQQDEyVEaWdpQ2VydCBBc3N1cmVkIElEIENvZGUgU2lnbmluZyBDQS0xMB4XDTExMDQwODAwMDAwMFoXDTEzMDQxMjEyMDAwMFowSzELMAkGA1UEBhMCTkwxEjAQBgNVBAcTCUFtc3RlcmRhbTETMBEGA1UEChMKSHl2ZXMgQi5WLjETMBEGA1UEAxMKSHl2ZXMgQi5WLjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKcC6tefpHZQhewWHqAIjjK6lBb2UOpq3n64Yfcrb/g8y8bO/i4FqMlHWVdIs5+2SFncS8z6BVjrXpeICnao8wBD58ED3/2BPTFtfQoZFtJlP566TX56BRF8mi5NhGqFJtujsiMx7qH9lan8n7EicEm1rf5wuPEY8CL8jP31sC0gFjbtxrkM0z4juosfdtq7gYxI43JZWzNx3xo1pIcEldeMC2TB1YxTn1NmgH4pEFKGxgObiCFnbMMzjBuQltaQBfUZhtCf14yEB4bhVXlrQFQC/lTCdA4I3fsxMrqqDEUa5FcdMqlvV6e8dJt8rau6ZqYoP+Vub3Dmog68yM/NAe0CAwEAAaOCAsQwggLAMB8GA1UdIwQYMBaAFHtozimqwBe+SXrh5T/Wp/dFjzUyMB0GA1UdDgQWBBT/IRUj6NmoX9YhGcRSFuhY/BNkTTCCAcQGA1UdIASCAbswggG3MIIBswYJYIZIAYb9bAMBMIIBpDA6BggrBgEFBQcCARYuaHR0cDovL3d3dy5kaWdpY2VydC5jb20vc3NsLWNwcy1yZXBvc2l0b3J5Lmh0bTCCAWQGCCsGAQUFBwICMIIBVh6CAVIAQQBuAHkAIAB1AHMAZQAgAG8AZgAgAHQAaABpAHMAIABDAGUAcgB0AGkAZgBpAGMAYQB0AGUAIABjAG8AbgBzAHQAaQB0AHUAdABlAHMAIABhAGMAYwBlAHAAdABhAG4AYwBlACAAbwBmACAAdABoAGUAIABEAGkAZwBpAEMAZQByAHQAIABDAFAALwBDAFAAUwAgAGEAbgBkACAAdABoAGUAIABSAGUAbAB5AGkAbgBnACAAUABhAHIAdAB5ACAAQQBnAHIAZQBlAG0AZQBuAHQAIAB3AGgAaQBjAGgAIABsAGkAbQBpAHQAIABsAGkAYQBiAGkAbABpAHQAeQAgAGEAbgBkACAAYQByAGUAIABpAG4AYwBvAHIAcABvAHIAYQB0AGUAZAAgAGgAZQByAGUAaQBuACAAYgB5ACAAcgBlAGYAZQByAGUAbgBjAGUALjCBggYIKwYBBQUHAQEEdjB0MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wTAYIKwYBBQUHMAKGQGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEFzc3VyZWRJRENvZGVTaWduaW5nQ0EtMS5jcnQwDAYDVR0TAQH/BAIwADATBgNVHSUEDDAKBggrBgEFBQcDAzAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQEFBQADggEBAFOj/uR6HcsP7E+7AVpzIhXQyWgoli+YPDtRjbpzP4mkFenLb5X6X19F24bal5m0a0oB57Qlcl7dnszeDvAo8iZ+xZws6RSj/v2Oy5ly5TRNqWrVISp9k9bnpVFBXxtzbLjqgBxu2NmlS4F3668pJXGZR/kKEkhHcMXFKTStlxDJ4RWi82rnqR+qgZKpdrZLvmzOSROoWdYn1l0XVPhISED9XYN2a/jc+HM9YUDv9hr62xAoM+/r15XxakT7lUjD5YcVH2rMSZI6nSfdQZ8I6PHyvBYXzv/rCUhnfUlGvvpj6XTATuwJjD7NIlB2eW5z0lXWRkmjwHMyJ++nobD2/mw=</X509Certificate><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

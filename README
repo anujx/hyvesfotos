@@ -1,0 +1,43 @@
+Copyright (C) 2011 by Anuj Ahuja
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+* Prerequisite
+1. Visual studio C# 2010 express edition - You can download it from following link 
+http://www.microsoft.com/visualstudio/en-us/products/2010-editions/visual-csharp-express.
+
+2. Hyves consumer key and secret - Please follow following steps for getting consumer key and secret
+	a. Create Hyves Account - Create hyves account from following link http://www.hyves.nl/create/
+	b. Create Hyves API Consumer - Create hyves consumer from following link http://www.hyves.nl/developer/apiconsumer/
+		i.   Select Type as "Desktop"
+		ii.  Fill in Name
+		iii. Fill in Description
+		iv.  Enter security tag from email, (You will get after clicking link next to this field)
+		v.   Leave rest of the fields blank
+	c. Consumer key and secret - Now you can get consumer key from application you just created from following link http://www.hyves.nl/developer/applications/
+
+
+* How run project
+1. Update consumer key and consumer secret in following file Hyves.Desktop.Interface\app.config 
+2. Open HyvesFotos.sln with visual studio C# express edition and start debugging to run application
+
+
+
+
